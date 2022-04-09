@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TATAN!!</title>
+    <link rel="icon" type="image/x-icon" href="imagenes/favicon.ico">
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>TATAN!</h1>
+    </header>
+
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Sobre-mi.html">Sobre mi</a></li>
+            <li><a href="Musica-que-inspira.html">Musica que inspira</a></li>
+            <li><a href="Pinturas.html">Pinturas</a></li>
+            <li><a href="Tatuajes.html">Tatuajes</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div>
+        <p class="contacto" style="font-size: 30px;position: relative;color: rgb(4, 19, 12);"> Mandame un mensaje para
+            coordinar un turno!
+        </p>
+    </div>
+
+    <form action="envio.php" method="post" class="contacto"
+        style="color: rgb(19, 34, 25);font-size: 20px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+        <p><label for="">Nombre </label><br><input type="text" value="Ej: Jorge "></p>
+        <p><label for="">Apellido </label><br><input type="text" value="Ej: Perez"></p>
+        <p><label for="">Email</label><br><input type="email" value="Email"></p>
+
+        <tr>
+            <td>Genero</td>
+            <td>
+                <select name="Genero" id="Genero">
+                    <option value="Masculinino">Masculinino</option>
+                    <option value="Femenino">Femenino</option>
+                    <option value="Sin genero">Sin genero</option>
+                </select>
+
+            </td>
+        </tr>
+
+        <p><label for="">Comentarios</label><br><textarea name="" id="" cols="30" rows="10"></textarea></p>
+
+
+        <div class="botones">
+            <table>
+                <tr>
+                    <td>
+                        <p><input type="submit" value="Enviar!"></p>
+                    </td>
+                    <td>
+                        <p><input type="reset" value="Limpiar"></p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </form>
+
+
+    <div class="footer">
+
+        <footer class="texto">
+
+            <h3><img src="imagenes/tatan.jpg" alt="" class="logo"> </h3>
+            <h3><a href="#contacto"></a> CONTACTO</h3>
+            <h3><a href="https://www.instagram.com/sebastiancayol/?hl=es-la">
+                    <img src="imagenes/instagram.png" alt="" ight="50" width="50"></a></h3>
+
+        </footer>
+    </div>
+
+</body>
+
+</html>
