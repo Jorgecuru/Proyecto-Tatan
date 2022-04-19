@@ -62,7 +62,7 @@ a:hover {
 }
 
 .align2{
-    justify-content:ce ;
+    justify-content:center ;
 
 }
 
@@ -90,4 +90,18 @@ a:hover {
 
 .container, .container-fluid{
     padding: 0;
+}
+
+.sindeco{
+    text-decoration: none;
+    color: black;
+}
+
+.parrafo{
+    font-size: xx-large;
+}
+
+.parrafo2{
+   padding-top: 20px;
+   padding-bottom: 100px;
 }
