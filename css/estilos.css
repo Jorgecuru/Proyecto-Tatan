@@ -1,107 +1,81 @@
-*{
-    padding: 0;
-    margin: 0;
-}
+* {
+  padding: 0;
+  margin: 0; }
 
-.espaciado{
-    margin: 15px;
-}
+.espaciado {
+  margin: 15px; }
 
-.mayus{
-    font-size: 6em;
-    color: rgb(5, 73, 5);
-    text-align: center;
-}
+.mayus {
+  font-size: 6em;
+  color: #054905;
+  text-align: center; }
 
+.fondo {
+  background-color: #d1d1ed;
+  border-radius: 15px; }
 
-.fondo{ 
-    background-color: lightgray;
-    border-radius: 15px;
-    
-}
-
-.logo{
-    width: 20%;
-}
+.logo {
+  width: 20%; }
 
 .lista {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-}
+  list-style: none;
+  display: flex;
+  flex-direction: row; }
 
 a {
-    display: inline-flex;
-    padding: 2em;
-    background-color: LightGray;
-    text-align: center;
-    margin-bottom: 0.2em;
-    text-decoration: none;
-    color: #000000;
-    width: 8em;
-    border-radius: 5px;
-    font-size: xx-large;
-    transition: .4s ease-in;
-    height: 4em;
-    z-index: 1;
-    
-}
-
-a:hover {
+  display: inline-flex;
+  padding: 2em;
+  background-color: LightGray;
+  text-align: center;
+  margin-bottom: 0.2em;
+  text-decoration: none;
+  color: #000000;
+  width: 8em;
+  border-radius: 5px;
+  font-size: xx-large;
+  transition: .4s ease-in;
+  height: 4em;
+  z-index: 1; }
+  a:hover {
     box-shadow: 10px 10px 0px green;
     top: -5px;
-    left: -5px;
-}
+    left: -5px; }
 
-.imgfondo{
-    background-size: cover;
-}
+.imgfondo {
+  background-size: cover; }
 
-.align{
-    text-align: center;
-}
+.align {
+  text-align: center; }
 
-.align2{
-    justify-content:center ;
+.align2 {
+  justify-content: center; }
 
-}
+.quitar {
+  text-decoration: none; }
 
-.quitar{
-    text-decoration: none;
+.altura {
+  height: 500px; }
 
-}
+.navbar-nav {
+  width: 100%; }
 
-.altura{
-    height: 500px;
-}
+.nav-item {
+  width: 100%;
+  margin: 0 5px 0 5px; }
 
-.navbar-nav{
-    width: 100%;
-}
+.nav-link {
+  width: inherit; }
 
-.nav-item{
-    width: 100%;
-    margin: 0 5px 0 5px;
-}
+.container, .container-fluid {
+  padding: 0; }
 
-.nav-link{
-    width: inherit;
-}
+.sindeco {
+  text-decoration: none;
+  color: black; }
 
-.container, .container-fluid{
-    padding: 0;
-}
+.parrafo {
+  font-size: xx-large; }
 
-.sindeco{
-    text-decoration: none;
-    color: black;
-}
-
-.parrafo{
-    font-size: xx-large;
-}
-
-.parrafo2{
-   padding-top: 20px;
-   padding-bottom: 100px;
-}
+.parrafo2 {
+  padding-top: 20px;
+  padding-bottom: 100px; }
