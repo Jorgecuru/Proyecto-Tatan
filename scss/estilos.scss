@@ -46,7 +46,7 @@
     z-index: 1;
   
     &:hover {
-      box-shadow: 10px 10px 0px green;
+      box-shadow: 10px 10px 0px black;
       top: -5px;
       left: -5px;
     }
@@ -103,4 +103,12 @@
     padding-bottom: 100px;
   }
 
-  
+  .bg-light {
+    --bs-bg-opacity: 0;
+    background-color: none
+  }
+
+  .align3{
+    align-items: center;
+}
+
