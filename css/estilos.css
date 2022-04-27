@@ -10,8 +10,8 @@
   color: #054905;
   text-align: center; }
 
-.fondo {
-  background-color: #d1d1ed;
+.fondo, .fondo_nuevo {
+  background-color: gray;
   border-radius: 15px; }
 
 .logo {
@@ -66,7 +66,8 @@ a {
 .nav-link {
   width: inherit; }
 
-.container, .container-fluid {
+.container,
+.container-fluid {
   padding: 0; }
 
 .sindeco {
@@ -86,3 +87,31 @@ a {
 
 .align3 {
   align-items: center; }
+
+.boton_rojo {
+  background-color: red; }
+
+.boton_verde {
+  background-color: green; }
+
+.boton_amarillo {
+  background-color: yellow; }
+
+.boton_azul {
+  background-color: blue; }
+
+.boton_gris {
+  background-color: gray; }
+
+.mayus2 {
+  background-color: #3e1b69;
+  color: #ce5e08;
+  font-size: 7em;
+  border-radius: 5px; }
+
+.fondo_nuevo {
+  background-color: #201a1a;
+  border-radius: 5px; }
+
+.curva {
+  border-radius: 10px; }
