@@ -1,37 +1,34 @@
-@import "colores";
-@import "estructura";
-
 * {
     padding: 0;
     margin: 0;
-}
-
-.espaciado {
+  }
+  
+  .espaciado {
     margin: 15px;
-}
-
-.mayus {
+  }
+  
+  .mayus {
     font-size: 6em;
     color: rgb(5, 73, 5);
     text-align: center;
-}
-
-.fondo {
+  }
+  
+  .fondo {
     background-color: gray;
     border-radius: 15px;
-}
-
-.logo {
+  }
+  
+  .logo {
     width: 20%;
-}
-
-.lista {
+  }
+  
+  .lista {
     list-style: none;
     display: flex;
     flex-direction: row;
-}
-
-a {
+  }
+  
+  a {
     display: inline-flex;
     padding: 2em;
     background-color: LightGray;
@@ -45,116 +42,113 @@ a {
     transition: .4s ease-in;
     height: 4em;
     z-index: 1;
-
+  
     &:hover {
-        box-shadow: 10px 10px 0px black;
-        top: -5px;
-        left: -5px;
+      box-shadow: 10px 10px 0px black;
+      top: -5px;
+      left: -5px;
     }
-}
-
-.imgfondo {
+  }
+  
+  .imgfondo {
     background-size: cover;
-}
-
-.align {
+  }
+  
+  .align {
     text-align: center;
-}
-
-.align2 {
+  }
+  
+  .align2 {
     justify-content: center;
-}
-
-.quitar {
+  }
+  
+  .quitar {
     text-decoration: none;
-}
-
-.altura {
+  }
+  
+  .altura {
     height: 500px;
-}
-
-.navbar-nav {
+  }
+  
+  .navbar-nav {
     width: 100%;
-}
-
-.nav-item {
+  }
+  
+  .nav-item {
     width: 100%;
     margin: 0 5px 0 5px;
-}
-
-.nav-link {
+  }
+  
+  .nav-link {
     width: inherit;
-}
-
-.container,
-.container-fluid {
+  }
+  
+  .container,
+  .container-fluid {
     padding: 0;
-}
-
-.sindeco {
+  }
+  
+  .sindeco {
     text-decoration: none;
     color: black;
-}
-
-.parrafo {
+  }
+  
+  .parrafo {
     font-size: xx-large;
-}
-
-.parrafo2 {
+  }
+  
+  .parrafo2 {
     padding-top: 20px;
     padding-bottom: 100px;
-}
-
-.bg-light {
+  }
+  
+  .bg-light {
     --bs-bg-opacity: 0;
     background-color: none
-}
-
-.align3 {
+  }
+  
+  .align3 {
     align-items: center;
-}
-
-$colorb:(rojo: red, verde:green, amarillo:yellow, azul:blue, gris:gray);
-
-@each $color,
-$valor in $colorb {
+  }
+  
+  $colorb:(rojo: red, verde:green, amarillo:yellow, azul:blue, gris:gray);
+  
+  @each $color,
+  $valor in $colorb {
     .boton_#{$color} {
-        background-color: $valor;
+      background-color: $valor;
     }
-}
-
-$mayu:(
+  }
+  
+  $mayu:(
     letra: 7em,
     color: #3e1b69,
     color2: rgb(206, 94, 8),
     borde: 5px
-
-);
-
-
-.mayus2 {
+  
+  );
+  
+  
+  .mayus2 {
     background-color: map-get($mayu , color );
     color:map-get($mayu , color2 );
     font-size:map-get($mayu , letra ) ;
     border-radius: map-get($mayu , borde );
-
-
-}
-
-.fondo_nuevo{
+  
+  
+  }
+  
+  .fondo_nuevo{
     @extend .fondo;
     background-color: rgb(32, 26, 26);
     border-radius: 5px;
-
-}
-
-@mixin radio ($borde){
+  
+  }
+  
+  @mixin radio ($borde){
     border-radius: $borde;
-}
-
-.curva{
+  }
+  
+  .curva{
     @include radio(10px);
-}
-    
-
-
+  }
