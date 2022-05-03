@@ -75,7 +75,7 @@ a {
   color: black; }
 
 .parrafo {
-  font-size: xx-large; }
+  font-size: 5em; }
 
 .parrafo2 {
   padding-top: 20px;
@@ -115,6 +115,20 @@ a {
 
 .curva {
   border-radius: 10px; }
+
+.colorheader {
+  background-color: #3e1b69; }
+
+.bg-light2 {
+  --bs-bg-opacity: 0;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important; }
+
+.pie {
+  margin-top: 75%;
+  bottom: 0px; }
+
+.texto {
+  font-size: 10em; }
 
 * {
   padding: 0;
@@ -193,15 +207,15 @@ a {
   color: black; }
 
 .parrafo {
-  font-size: xx-large; }
+  font-size: 5em; }
 
 .parrafo2 {
   padding-top: 20px;
   padding-bottom: 100px; }
 
 .bg-light {
-  --bs-bg-opacity: 0;
-  background-color: none; }
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important; }
 
 .align3 {
   align-items: center; }

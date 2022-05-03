@@ -94,7 +94,7 @@
   }
   
   .parrafo {
-    font-size: xx-large;
+    font-size: 5em;
   }
   
   .parrafo2 {
@@ -151,4 +151,22 @@
   
   .curva{
     @include radio(10px);
+  }
+
+  .colorheader{
+      background-color: #3e1b69;
+  }
+
+  .bg-light2 {
+    --bs-bg-opacity: 0;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+  }
+
+  .pie{
+      margin-top: 75%;
+      bottom: 0px;
+  }
+
+  .texto{
+      font-size: 10em;
   }
